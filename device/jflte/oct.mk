@@ -1,5 +1,5 @@
 # OctOS overlay script
-$(shell $(LOCAL_PATH)/oct_overlay)
+$(call shell $(LOCAL_PATH)/oct_overlay)
 
 # Inherit full device make
 $(call inherit-product, device/samsung/jflte/full_jflte.mk)
